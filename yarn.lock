@@ -1439,6 +1439,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nomicfoundation/hardhat-foundry@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@nomicfoundation/hardhat-foundry@npm:1.0.1"
+  dependencies:
+    chalk: ^2.4.2
+  peerDependencies:
+    hardhat: ^2.12.6
+  checksum: 3a11b727094ce8a4e188c378b308f54a9dab2bf3fb5ea5e07b8d5efd35cfc6bbcb3a0c985b1f710c0748eac329dde6df4f551bfc25af6edaf100059a20bfe34f
+  languageName: node
+  linkType: hard
+
 "@nomicfoundation/hardhat-network-helpers@npm:^1.0.6":
   version: 1.0.6
   resolution: "@nomicfoundation/hardhat-network-helpers@npm:1.0.6"
@@ -1774,6 +1785,7 @@ __metadata:
     "@ethersproject/abi": ^5.7.0
     "@ethersproject/providers": ^5.7.1
     "@nomicfoundation/hardhat-chai-matchers": ^1.0.3
+    "@nomicfoundation/hardhat-foundry": ^1.0.1
     "@nomicfoundation/hardhat-network-helpers": ^1.0.6
     "@nomicfoundation/hardhat-toolbox": ^2.0.0
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13"
