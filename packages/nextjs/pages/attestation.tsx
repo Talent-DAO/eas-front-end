@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import { MetaHeader } from "~~/components/MetaHeader";
-import { ContractData } from "~~/components/example-ui/ContractData";
-import { ContractInteraction } from "~~/components/example-ui/ContractInteraction";
+import AttestForm from "~~/components/attestation/AttestForm";
 
 const Attestation: NextPage = () => {
   return (
@@ -13,9 +12,8 @@ const Attestation: NextPage = () => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet" />
       </MetaHeader>
-      <div className="grid lg:grid-cols-2 flex-grow" data-theme="exampleUi">
-        <ContractInteraction />
-        <ContractData />
+      <div className="grid lg:grid-cols-1 flex-grow" data-theme="attestation">
+        <AttestForm />
       </div>
     </>
   );

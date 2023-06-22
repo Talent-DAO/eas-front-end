@@ -4,9 +4,16 @@ module.exports = {
   plugins: [require("daisyui")],
   darkTheme: "scaffoldEthDark",
   // DaisyUI theme colors
+  // todo: add journal theme(s)
   daisyui: {
     themes: [
       {
+        journal: {
+          primary: "#8f060a",
+        },
+        journalDark: {
+          primary: "#F9FBFF",
+        },
         scaffoldEth: {
           primary: "#93BBFB",
           "primary-content": "#212638",
