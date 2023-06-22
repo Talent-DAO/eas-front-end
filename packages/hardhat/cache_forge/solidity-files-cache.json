@@ -12,6 +12,46 @@
     ]
   },
   "files": {
+    "contracts/PublicationReview.sol": {
+      "lastModificationDate": 1687392780671,
+      "contentHash": "5d3eb5d585fa5f727b1a35c984aa0998",
+      "sourceName": "contracts/PublicationReview.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.19",
+      "artifacts": {
+        "PublicationReview": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "PublicationReview.sol/PublicationReview.json"
+        }
+      }
+    },
     "contracts/YourContract.sol": {
       "lastModificationDate": 1687390304936,
       "contentHash": "6c04415ff4544ea0c1fd3b0eeaba21ca",

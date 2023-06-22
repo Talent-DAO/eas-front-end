@@ -11,3 +11,8 @@ cache
 artifacts
 
 deployments
+
+# Foundry
+out
+cache_forge
+broadcast
