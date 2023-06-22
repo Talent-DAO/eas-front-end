@@ -1,8 +1,17 @@
 import { NextPage } from "next";
+import { useSigner } from "wagmi";
+import { getEASContract, registerEASSchema } from "~~/services/eas/EAS";
 
 const AttestForm: NextPage = () => {
-  const submitReview = () => {
+  const { data: signer } = useSigner();
+
+  const submitReview = async () => {
     console.log("Submitting Review");
+    const easContract = getEASContract(11155111);
+
+    const tx = await registerEASSchema(signer);
+
+    console.log("EAS", { easContract, tx });
   };
 
   return (

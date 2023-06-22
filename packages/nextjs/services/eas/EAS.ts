@@ -42,7 +42,7 @@ export const getEASContract = (chainId: number): string => {
 };
 
 export const registerEASSchema = async (signer: any): Promise<string> => {
-  const schemaRegistryContractAddress = "";
+  const schemaRegistryContractAddress = "0xA7b39296258348C78294F95B872b282326A97BDF";
   const schemaRegistry = new SchemaRegistry(schemaRegistryContractAddress);
 
   schemaRegistry.connect(signer);
