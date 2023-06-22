@@ -13,8 +13,8 @@
   },
   "files": {
     "contracts/PublicationReview.sol": {
-      "lastModificationDate": 1687392780671,
-      "contentHash": "5d3eb5d585fa5f727b1a35c984aa0998",
+      "lastModificationDate": 1687392963930,
+      "contentHash": "8f843a08f519d9fa7a2c54ad890a35fe",
       "sourceName": "contracts/PublicationReview.sol",
       "solcConfig": {
         "settings": {
@@ -44,7 +44,13 @@
           "libraries": {}
         }
       },
-      "imports": [],
+      "imports": [
+        "eas-contracts/contracts/Common.sol",
+        "eas-contracts/contracts/IEAS.sol",
+        "eas-contracts/contracts/ISchemaRegistry.sol",
+        "eas-contracts/contracts/resolver/ISchemaResolver.sol",
+        "eas-contracts/contracts/resolver/SchemaResolver.sol"
+      ],
       "versionRequirement": "=0.8.19",
       "artifacts": {
         "PublicationReview": {
@@ -91,6 +97,220 @@
       "artifacts": {
         "YourContract": {
           "0.8.19+commit.7dd6d404.Darwin.appleclang": "YourContract.sol/YourContract.json"
+        }
+      }
+    },
+    "eas-contracts/contracts/Common.sol": {
+      "lastModificationDate": 1687392947251,
+      "contentHash": "2df2071e22b320a83a17d4c896a4d257",
+      "sourceName": "eas-contracts/contracts/Common.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Common": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Common.sol/Common.json"
+        }
+      }
+    },
+    "eas-contracts/contracts/IEAS.sol": {
+      "lastModificationDate": 1687392947254,
+      "contentHash": "a3d654ad1e6ade57433c6ffd4ab534dc",
+      "sourceName": "eas-contracts/contracts/IEAS.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "eas-contracts/contracts/Common.sol",
+        "eas-contracts/contracts/ISchemaRegistry.sol",
+        "eas-contracts/contracts/resolver/ISchemaResolver.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IEAS": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "IEAS.sol/IEAS.json"
+        }
+      }
+    },
+    "eas-contracts/contracts/ISchemaRegistry.sol": {
+      "lastModificationDate": 1687392947255,
+      "contentHash": "dccff70a50a8f1e2e80831985a0aa5eb",
+      "sourceName": "eas-contracts/contracts/ISchemaRegistry.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "eas-contracts/contracts/Common.sol",
+        "eas-contracts/contracts/resolver/ISchemaResolver.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ISchemaRegistry": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ISchemaRegistry.sol/ISchemaRegistry.json"
+        }
+      }
+    },
+    "eas-contracts/contracts/resolver/ISchemaResolver.sol": {
+      "lastModificationDate": 1687392947259,
+      "contentHash": "59a7215ea914bef56c3f9c64d82525b8",
+      "sourceName": "eas-contracts/contracts/resolver/ISchemaResolver.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "eas-contracts/contracts/Common.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ISchemaResolver": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ISchemaResolver.sol/ISchemaResolver.json"
+        }
+      }
+    },
+    "eas-contracts/contracts/resolver/SchemaResolver.sol": {
+      "lastModificationDate": 1687392947259,
+      "contentHash": "e60b3b0210b3349496e6354d5b206667",
+      "sourceName": "eas-contracts/contracts/resolver/SchemaResolver.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "eas-contracts/contracts/Common.sol",
+        "eas-contracts/contracts/IEAS.sol",
+        "eas-contracts/contracts/ISchemaRegistry.sol",
+        "eas-contracts/contracts/resolver/ISchemaResolver.sol"
+      ],
+      "versionRequirement": "=0.8.19",
+      "artifacts": {
+        "SchemaResolver": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "SchemaResolver.sol/SchemaResolver.json"
         }
       }
     },

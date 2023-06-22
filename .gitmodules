@@ -1,0 +1,3 @@
+[submodule "packages/hardhat/eas-contracts"]
+	path = packages/hardhat/eas-contracts
+	url = https://github.com/ethereum-attestation-service/eas-contracts

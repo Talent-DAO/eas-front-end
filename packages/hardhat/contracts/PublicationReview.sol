@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
+import { SchemaResolver } from "../eas-contracts/contracts/resolver/SchemaResolver.sol";
+import { IEAS, Attestation } from "../eas-contracts/contracts/IEAS.sol";
+
 contract PublicationReview {
   struct Review {
     address reviewer;
