@@ -2,7 +2,29 @@ import { NextPage } from "next";
 import { useSigner } from "wagmi";
 import { getEASContract, registerEASSchema } from "~~/services/eas/EAS";
 
-const AttestForm: NextPage = () => {
+type Comment = {
+  author: string;
+  body: string;
+};
+
+type Attestation = {
+  attestationId: string;
+  paperId: string;
+  description: string;
+  timestamp: string;
+};
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+type ReviewProps = {
+  reviewerId: string;
+  paperId: string;
+  score: number;
+  comments: Comment[];
+  attestations: Attestation[];
+  timestamp: string;
+};
+
+const ReviewForm: NextPage = () => {
   const { data: signer } = useSigner();
 
   const submitReview = async () => {
@@ -66,4 +88,4 @@ const AttestForm: NextPage = () => {
   );
 };
 
-export default AttestForm;
+export default ReviewForm;

@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { MetaHeader } from "~~/components/MetaHeader";
-import AttestForm from "~~/components/attestation/AttestForm";
+import AttestForm from "~~/components/attestation/ReviewForm";
 
 const Attestation: NextPage = () => {
   return (
