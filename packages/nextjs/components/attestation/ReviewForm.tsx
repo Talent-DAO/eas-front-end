@@ -24,6 +24,10 @@ type ReviewProps = {
   timestamp: string;
 };
 
+// Todo:
+// 1. Add form props to match ReviewProps
+// 2. Add form validation
+
 const ReviewForm: NextPage = () => {
   const { data: signer } = useSigner();
 
