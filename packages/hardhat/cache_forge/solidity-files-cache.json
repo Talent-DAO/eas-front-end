@@ -13,8 +13,8 @@
   },
   "files": {
     "contracts/PublicationReview.sol": {
-      "lastModificationDate": 1687393807459,
-      "contentHash": "67b3e0cffdeefce28c946c4285c610f9",
+      "lastModificationDate": 1688415556671,
+      "contentHash": "3e9462e7f548e1bb067ed43ccead55ac",
       "sourceName": "contracts/PublicationReview.sol",
       "solcConfig": {
         "settings": {
@@ -66,8 +66,8 @@
       }
     },
     "contracts/YourContract.sol": {
-      "lastModificationDate": 1687390304936,
-      "contentHash": "6c04415ff4544ea0c1fd3b0eeaba21ca",
+      "lastModificationDate": 1688415556671,
+      "contentHash": "35f244548675f2f1a8d432d106632d5c",
       "sourceName": "contracts/YourContract.sol",
       "solcConfig": {
         "settings": {
