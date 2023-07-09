@@ -2,12 +2,12 @@ name: General Issue
 description: File a general issue
 title: ''
 body:
-  -type: markdown
+  - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this general issue! The more info you provide, the more we can help you 🙌
 
-  -type: checkboxes
+  - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
       description: Please search to see if an issue already exists.
