@@ -1,6 +1,6 @@
 name: User Story
 description: File a user story
-title: ''
+title: 'user story: <title>'
 body:
   - type: markdown
     attributes:
