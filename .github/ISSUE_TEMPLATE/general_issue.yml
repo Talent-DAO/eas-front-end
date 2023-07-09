@@ -1,0 +1,23 @@
+name: General Issue
+description: File a general issue
+title: ''
+body:
+  -type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this general issue! The more info you provide, the more we can help you 🙌
+
+  -type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists.
+      options:
+        - label: I have looked through the [existing issues](https://github.com/Talent-DAO/eas-front-end/issues)
+          required: true
+
+  - type: textarea
+    attributes:
+      label: General Issue
+      description: A concise description of what you're expecting or experiencing.
+    validations:
+      required: false

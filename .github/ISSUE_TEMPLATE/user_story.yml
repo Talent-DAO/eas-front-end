@@ -1,0 +1,15 @@
+name: User Story
+description: File a user story
+title: ''
+body:
+  -type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this user story! The more info you provide, the more we can help you 🙌
+
+  - type: textarea
+    attributes:
+      label: User Story
+      description: A concise description of what you're expecting.
+    validations:
+      required: false
