@@ -1,5 +1,5 @@
 {
-  "name": "se-2",
+  "name": "peer-protocol",
   "version": "0.0.1",
   "private": true,
   "workspaces": {
@@ -9,29 +9,22 @@
     ]
   },
   "scripts": {
-    "account": "yarn workspace @se-2/hardhat account",
-    "chain": "yarn workspace @se-2/hardhat chain",
-    "fork": "yarn workspace @se-2/hardhat fork",
-    "deploy": "yarn workspace @se-2/hardhat deploy",
-    "verify": "yarn workspace @se-2/hardhat verify",
-    "compile": "yarn workspace @se-2/hardhat compile",
-    "generate": "yarn workspace @se-2/hardhat generate",
-    "hardhat:lint": "yarn workspace @se-2/hardhat lint",
-    "hardhat:lint-staged": "yarn workspace @se-2/hardhat lint-staged",
-    "hardhat:test": "yarn workspace @se-2/hardhat test",
-    "start": "yarn workspace @se-2/nextjs dev",
-    "next:lint": "yarn workspace @se-2/nextjs lint",
-    "next:format": "yarn workspace @se-2/nextjs format",
-    "next:check-types": "yarn workspace @se-2/nextjs check-types",
-    "postinstall": "husky install",
-    "precommit": "lint-staged",
-    "vercel": "yarn workspace @se-2/nextjs vercel",
-    "vercel:yolo": "yarn workspace @se-2/nextjs vercel:yolo"
-  },
-  "packageManager": "yarn@3.2.3",
-  "devDependencies": {
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3"
+    "account": "yarn workspace @peer-protocol/hardhat account",
+    "chain": "yarn workspace @peer-protocol/hardhat chain",
+    "fork": "yarn workspace @peer-protocol/hardhat fork",
+    "deploy": "yarn workspace @peer-protocol/hardhat deploy",
+    "verify": "yarn workspace @peer-protocol/hardhat verify",
+    "compile": "yarn workspace @peer-protocol/hardhat compile",
+    "generate": "yarn workspace @peer-protocol/hardhat generate",
+    "hardhat:lint": "yarn workspace @peer-protocol/hardhat lint",
+    "hardhat:lint-staged": "yarn workspace @peer-protocol/hardhat lint-staged",
+    "hardhat:test": "yarn workspace @peer-protocol/hardhat test",
+    "start": "yarn workspace @peer-protocol/nextjs dev",
+    "next:lint": "yarn workspace @peer-protocol/nextjs lint",
+    "next:format": "yarn workspace @peer-protocol/nextjs format",
+    "next:check-types": "yarn workspace @peer-protocol/nextjs check-types",
+    "vercel": "yarn workspace @peer-protocol/nextjs vercel",
+    "vercel:yolo": "yarn workspace @peer-protocol/nextjs vercel:yolo"
   },
   "resolutions": {
     "usehooks-ts@^2.7.2": "patch:usehooks-ts@npm:^2.7.2#./.yarn/patches/usehooks-ts-npm-2.7.2-fceffe0e43.patch"

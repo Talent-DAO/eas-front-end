@@ -14,5 +14,5 @@ deployments
 
 # Foundry
 out
-cache_forge
+cache_forge/*.json
 broadcast

@@ -77,6 +77,9 @@ export const getEASSchema = async (): Promise<SchemaRecord> => {
   return schemaRecord;
 };
 
+// todo: add fetch to get a file pointer from Arweave/IPFS/URL
+// 1. upload file and get the pointer
+// 2. add the pointer to the attestation
 export const createOnChainAttestation = async (recipient: string): Promise<string> => {
   // Initialize SchemaEncoder with the schema string
   const schemaEncoder = new SchemaEncoder("uint256 eventId, uint8 voteIndex");
